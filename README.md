@@ -1,28 +1,14 @@
+Parrot codeing with Termux
 
-***
-
-# Android x32 project
-
-## Android 4.1x32 Vanilla Edition
-
-**Status:** `Not ready`
-
-- [ ] Add source code from the Android 4.1 (Jelly Bean) branch
-- [ ] Build a bootloader
-- [ ] Make bootable
-- [ ] Create ISO image
-- [ ] Update programs
-- [ ] Test to make sure everything works in vanilla mode
-- - [ ] Touchscreen support
-- - [ ] Networking support (Wi-Fi, Cellular, Bluetooth)
-- - [ ] Keyboard support
-- - [ ] Data storage
-- - [ ] ETC
-- [ ] Distribute on [Android x64](https://archive.org/details/@android-x64)
-- [ ] Maintain and continue
-
-***
-
+  [ 1 ] apt-get update && apt-get upgrade -y
+  [ 2 ] apt-get install wget proot git curl -y
+- [ 3 ] cd ~
+  [ 4 ] git clone
+  [ 5 ] https://github.com/RiSecID/parrot-in-termux.git
+  [ 6 ] cd parrot-in-termux
+  [ 7 ] chmod +x parrot.sh
+  [ 8 ] bash parrot.sh -y
+  [ 9 ]./startparrot.sh
 **File version:** `1 (2023, Friday, January 6th at 4:31 pm PST)`
 
 ***
